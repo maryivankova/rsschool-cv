@@ -57,3 +57,11 @@ Software Development Engineer (Python)
 - Belarusian State University, Faculty of International Private Law (2007 - 2012)
 - Overone Programming School (Python Developer)
 - Coursera (Advanced Django: Building a Blog)
+
+
+## Work Experience
+- 2010 – 2022: Attorney-at-law (Private Practice)
+
+## Languages
+- English – B2
+- Russian - native
