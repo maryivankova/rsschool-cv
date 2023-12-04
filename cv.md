@@ -1,5 +1,7 @@
 # MARYIA IVANKOVA
 Software Development Engineer (Python)
+
+![Maryia Ivankova](./photo_cv.png)
 - 📞 +37529 8967079
 - ✉️ ivankovavm@gmail.com
 - 📍 Minsk, Belarus
