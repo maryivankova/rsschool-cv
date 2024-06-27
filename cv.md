@@ -15,6 +15,9 @@ Software Development Engineer (Python)
 ## Experience
 
 ### PYTHON DEVELOPER
+**Fontera** (09.2023 – curr.time)
+#### Project: Put-To-Light system to automate warehouse operations, accelerate sorting processes for various products, and minimize human error.
+- Part of a team of two backend developers. Responsibilities included developing a parser, writing APIs, creating project documentation, designing device network schemas, conducting manual testing, and writing tests. 
 
 
 ### PYTHON DEVELOPER
