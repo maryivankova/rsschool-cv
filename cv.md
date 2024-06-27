@@ -9,18 +9,13 @@ Software Development Engineer (Python)
 - [GitHub](https://github.com/maryivankova)
 
 ## Skills
-- Python
-- Flask
-- Fast API
-- Django DRF
-- PostgreSQL
-- Git
-- Linux
-- Docker
-- SQL
+● Python ● Flask ● Fast API ● Django DRF ● PostgreSQL ● Git ● Linux ● Docker ● SQL
 
 
 ## Experience
+
+### PYTHON DEVELOPER
+
 
 ### PYTHON DEVELOPER
 **Krew Guru** (07.2022 – 04.2023)
