@@ -1,0 +1,201 @@
+body {
+    font-family: var(--font-family);
+}
+.italic-text {
+    font-family: var(--second-family);
+    font-style: italic;
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+:root {
+    --font-family: "Georgia", sans-serif;
+    --second-family: "Arial", sans-serif;
+    --third-family: "Inter", sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #292929;
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header style start */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item{
+    margin-right: 35px;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.header_link{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+.header_item:first-of-type .header_link {
+    color: #FAFAFA; /* Цвет текста для первой ссылки */
+    text-decoration: underline; /* Подчеркивание для первой ссылки */
+    text-decoration-color: #F1CDB3; /* Цвет подчеркивания для первой ссылки */
+    text-decoration-thickness: 3px; /* Толщина подчеркивания для первой ссылки */
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+}
+
+/* Header style end */
+
+
+
+/* Intro style start */
+
+.intro{
+    height: 100vh ;
+    background: url(/asserts/images/start-screen-gradient-background.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 343px;
+}
+.intro_title{
+    font-family: var(--font-family);
+    font-weight: 310px;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+.intro_subtitle{
+    font-family: var(--second-family);
+    max-width: 460px;
+    color: #CDCDCD;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 57px;
+}
+.make-friend_buttom{
+    border-radius: 100px;
+    width: 207px;
+    height: 52px;
+    color: #292929;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    background-color: #F1CDB3;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay-image {
+    position: absolute;
+    width: 698px;
+    height: 728px;
+    top: 180px;
+    right: 40px;
+    background: url('/asserts/images/start-screen-puppy.png') no-repeat center;
+}
+
+/* Intro style end */
+
+/* About styles start */
+
+.about_wrap {
+    max-width: 1280px;
+    height: 588px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Центрирование блока */
+}
+.about_title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-left: 635px;
+    padding-top: 94px;
+    padding-right: 275px;
+    padding-bottom: 404px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 25px;
+}
+.about_subtitle{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    padding: 209px 215px 283px 635px;
+    position:absolute;
+    margin-bottom: 25px;
+}
+
+.about_subtitle_next{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    padding: 330px 215px 114px 635px;
+    position:absolute;
+    margin-bottom: 25px;
+}
+.puppy_image{
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    top: 80px;
+    left: 215px;
+    background: url('/asserts/images/about-pets.svg') no-repeat center;
+}
+/* About styles end */
