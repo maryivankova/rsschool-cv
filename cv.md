@@ -1,67 +1,103 @@
-# MARYIA IVANKOVA
-Software Development Engineer (Python)
+# Maryia Ivankova  
+**Middle Python Developer**  
+Ankara (Turkey), Minsk, Belarus ∙ +37529 8967079 ∙ ivankovavm@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/maryia-ivankova-5b416b66)
 
-![Maryia Ivankova](./photo_cv.jpg)
-- 📞 +37529 8967079
-- ✉️ ivankovavm@gmail.com
-- 📍 Minsk, Belarus
-- [LinkedIn](https://www.linkedin.com/in/maryia-ivankova-5b416b66)
-- [GitHub](https://github.com/maryivankova)
+---
 
-## Skills
-● Python ● Flask ● Fast API ● Django DRF ● PostgreSQL ● Git ● Linux ● Docker ● SQL
+## SUMMARY
 
+Highly motivated Python Backend Developer with experience in developing and maintaining scalable  
+web applications and APIs. Proficient in Python framework such as FastAPI, Flask with strong expertise in  
+database management using PostgreSQL and ORM tools like SQLAlchemy. Experienced in working in Linux.
 
-## Experience
+Developed a Telegram bot using the GPT-4 model, Sentence Transformers (vector search), and Python.  
+The bot is integrated with the Telegram Bot API and utilizes data from JSON and text files to generate  
+contextually relevant responses. Achieved 2nd place at the LATOKEN hackathon thanks to the bot's  
+functionality and accuracy.
 
-### PYTHON DEVELOPER
-**Fontera** (09.2023 – curr.time)
-#### Project: Put-To-Light system to automate warehouse operations, accelerate sorting processes for various products, and minimize human error.
-- Part of a team of two backend developers. Responsibilities included developing a parser, writing APIs, creating project documentation, designing device network schemas, conducting manual testing, and writing tests. 
+---
 
+## EXPERIENCE
 
-### PYTHON DEVELOPER
-**Krew Guru** (07.2022 – 04.2023)
-#### Project: Seafarer Job Matching Platform
-- Developed web application and Web APIs using different frameworks, Flask/Fast API.
-- Experience in developing applications using Python 3.8, Flask web framework backed up by PostgreSQL database using SQL Alchemy.
-- Worked with continuous deployment using Jenkins.
-- Proficient in writing end-to-end tests in PyTest.
-- Hands-on experience in using version control system Git and GitHub.
-- Development experience in Linux environments.
-- Experience with the architectural style RESTful API.
+### Python Developer | Fontera  
+*09.2023 – 02.2025*  
+[https://fontera.tech](https://fontera.tech)  
 
-**Technologies:** Python 3.8, Flask, FastAPI, PostgreSQL, Alchemy for ORM, GitHub
+A warehouse equipment management system consisting of PTL (Pick-to-Light) indicators, controllers, and a backend service built with Python (FastAPI). The system automates order fulfillment and controls placement of goods on shelves.
 
-### PYTHON DEVELOPER
-**iTechArt Group** (01.2022 – 03.2022)
-#### Project: Sports Nutrition App
-- Developed an admin panel for managing the project.
-- Unit testing.
-- Experience with CI/CD and version control systems.
-- Created documentation for RESTful API using Swagger.
-- Created models (OOP).
-- Implemented user authentication.
+- Developed and maintained backend including architecture design, services, agents, and API endpoints.  
+- Optimized data processing and system interactions for better performance.  
+- Configured and deployed multi-component application using Docker (CUPS, PostgreSQL, MinIO, RabbitMQ).  
+- Implemented RabbitMQ-based queue for async task processing, later replaced with an agent for predictability.  
+- Integrated external systems (PTL modules, MinIO) for automation and reporting.  
+- Wrote unit and integration tests ensuring system stability.  
+- Created technical documentation and flowcharts for customer understanding.
+
+**Technologies:** Python, FastAPI, SQLAlchemy, MinIO (S3), PostgreSQL, Docker
+
+---
+
+### Python Developer | Krew Guru  
+*07.2022 – 08.2023*  
+
+A seafarer job matching platform connecting maritime professionals with job opportunities.
+
+- Developed web applications and APIs using Flask.  
+- Implemented business logic with Python 3.8, Flask backed by PostgreSQL with SQLAlchemy ORM.  
+- Used Jenkins for continuous deployment.  
+- Wrote end-to-end tests using PyTest.  
+- Worked with Git, GitHub, and Linux environments.  
+- Designed and maintained RESTful APIs for frontend-backend communication.
+
+**Technologies:** Python 3.8, Flask, FastAPI, PostgreSQL, SQLAlchemy, GitHub, Jenkins, Linux
+
+---
+
+### Python Developer | iTechArt Group  
+*01.2022 – 03.2022*  
+
+Project: Sports Nutrition App
+
+- Developed admin panel for project management.  
+- Created unit tests to ensure code quality.  
+- Worked with CI/CD pipelines and version control systems.  
+- Created RESTful API documentation using Swagger.  
+- Designed models using OOP and implemented user authentication.
 
 **Technologies:** Python 3.8, Django, PostgreSQL, GitLab
 
-### PYTHON DEVELOPER (Trainee)
-**iTechArt Group** (09.2021 – 12.2021)
-- Backend, API development.
-- Experience writing unit tests.
-- Improved knowledge of Python.
-- Experience in software development for Linux OS.
+---
 
+### Python Developer (Trainee) | iTechArt Group  
+*09.2021 – 12.2021*
 
-## Education
-- Belarusian State University, Faculty of International Private Law (2007 - 2012)
-- Overone Programming School (Python Developer)
-- Coursera (Advanced Django: Building a Blog)
+- Participated in backend and API development.  
+- Improved Python skills via hands-on debugging and projects.  
+- Developed software for Linux-based systems.  
+- Gained experience writing unit tests.
 
+---
 
-## Work Experience
-- 2010 – 2022: Attorney-at-law (Private Practice)
+## SKILLS
 
-## Languages
-- English – B2
-- Russian - native
+- Programming: Python (FastAPI, Django, DRF), OOP, RESTful API Development  
+- Databases: PostgreSQL, SQLAlchemy, Redis  
+- DevOps & Tools: Docker, Git, GitLab CI/CD, Linux (Ubuntu), CUPS  
+- Testing: Unit testing, PyTest, debugging, performance optimization  
+- API Documentation: Swagger, Postman
+
+---
+
+## EDUCATION
+
+- Belarusian State University, Faculty of International Relations, Major: International Private Law (2007 – 2012)  
+- Overone Programming School, Python Developer Certification  
+- Coursera, Advanced Django: Building a Blog
+
+---
+
+## LANGUAGES
+
+- English – B2 (Upper Intermediate)  
+- Russian – Native
