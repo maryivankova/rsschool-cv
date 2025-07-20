@@ -1,0 +1,292 @@
+html, body {
+
+  padding: 0;
+  overflow-x: auto; /* чтобы появился горизонтальный скролл, если окно меньше 1920 */
+  width: 100%;
+}
+
+#app-container {
+  width: 1920px;
+  height: 9334px;
+  margin: 0 auto;
+  position: relative;
+  background: #FFFFFF;
+}
+
+
+
+/* Фон и размер основного блока */
+main {
+  width: 1920px;
+  height: 842px;
+  margin: 0 auto;
+
+  background-image: url('../assets/images/BG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative; /* чтобы вложенные элементы можно было позиционировать */
+}
+
+/* Обёртка для содержимого */
+.wrapper {
+  position: relative;
+  width: 1000px;   /* ширина фрейма */
+  height: 842px;   /* высота фрейма */
+  margin: 0 auto;
+}
+
+header {
+  position: relative; /* чтобы left заработал как смещение относительно текущей позиции */
+  width: 1920px;
+  height: 150px;
+  background-color: #030303;
+  opacity: 1;
+  transform: rotate(0deg);
+  margin: 0 auto;
+}
+.logo {
+  position: absolute;
+  top: 59px;
+  left: 240px;
+  width: 199px;
+  height: 33px;
+  opacity: 1;
+  transform: rotate(0deg);
+  object-fit: contain; /* чтобы картинка не искажалась */
+}
+.header-nav {
+  position: relative;
+  height: 26px; /* высота текста */
+}
+
+.nav-link {
+  position: absolute;
+  top: 65px;
+  height: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 26px; /* чтобы текст по высоте совпадал */
+  cursor: pointer;
+}
+
+.nav-link.visiting { left: 905px; width: 85px; }
+.nav-link.explore  { left: 1045px; width: 84px; }
+.nav-link.video    { left: 1184px; width: 63px; }
+.nav-link.gallery  { left: 1302px; width: 84px; }
+.nav-link.tickets  { left: 1441px; width: 82px; }
+.nav-link.contacts { left: 1578px; width: 102px; }
+
+
+/* Картинка Frame */
+.frame {
+  position: absolute;
+  width: 1000px;
+  height: 750px;
+  left: 240px;
+  transform: rotate(0deg);
+  opacity: 1;
+  z-index: 1;
+}
+.welcome__content {
+  position: absolute;
+  top: 150px;
+  width: 598px;
+  height: 388px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 55px; /* расстояние между заголовком, текстом и кнопкой */
+}
+
+.welcome__title {
+  position: relative;
+  right: 240px;
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  width: 100%;
+}
+
+.subtitle-text {
+  position: relative;
+  right: 240px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin: 0;
+  width: 100%;
+}
+
+.discover-button {
+  position: relative;
+  width: 360px;
+  height: 75px;
+  right: 240px;
+  background-color: #710707;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 75px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 1;
+}
+
+
+/* ========== Visiting Section ========== */
+
+.visiting__container {
+  width: 1920px; /* если секция на всю ширину макета */
+  margin: 0 auto;
+  position: relative;
+}
+
+.visiting__title {
+  position: absolute;
+  padding-top: 75px;
+  top: 0;
+  left: 240px;
+  width: 543px;
+  height: 90px;
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+  margin: 0;
+  z-index: 2;
+   white-space: nowrap;
+}
+.underline {
+  position: absolute;
+  top: 190px; /* 165px (нижняя граница заголовка) + 25px */
+  left: 0;
+  width: 1920px;
+  height: 3px;
+  background-color: #710707;
+  opacity: 1;
+}
+.visiting__image-1 {
+  position: absolute;
+  top: 218px;         /* 165 + 3 + 25 */
+  left: 240px;
+  width: 440px;
+  height: 285px;
+  opacity: 1;
+  transform: rotate(0deg);
+  z-index: 1;
+  object-fit: cover;
+}
+.visiting__label {
+  position: absolute;
+  top: calc(218px + 285px + 25px); /* 218 + высота картинки + отступ вниз */
+  left: 240px;
+  width: 252px;
+  height: 35px;
+  color: #000000;
+  font-family: Forum, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visiting__image-2 {
+  position: absolute;
+  top: 218px;
+  left: calc(240px + 440px + 60px); /* 740px */
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  z-index: 1;
+}
+.visiting__label.second {
+  top: calc(218px + 285px + 25px); /* такой же как у первой */
+  left: calc(240px + 440px + 60px); /* совпадает с картинкой */
+}
+
+.visiting__image-3 {
+  position: absolute;
+  top: 218px;
+  left: calc(240px + 2 * (440px + 60px)); /* 1240px */
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  z-index: 1;
+}
+.visiting__label.third {
+  position: absolute;
+  top: calc(218px + 285px + 25px);
+  left: calc(240px + 2 * (440px + 60px));
+  width: 440px; /* совпадает с изображением */
+  height: 35px;
+  color: #000000;
+  font-family: Forum, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visiting__image-4 {
+  position: absolute;
+  top: 717px; /* 218 + 285 + 214 */
+  left: 240px;
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.visiting__image-5 {
+  position: absolute;
+  top: 717px;
+  left: 740px;
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.visiting__image-6 {
+  position: absolute;
+  top: 717px;
+  left: 1240px;
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+
+
+
+
+
