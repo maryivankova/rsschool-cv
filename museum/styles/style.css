@@ -25,7 +25,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 
-  position: relative; /* чтобы вложенные элементы можно было позиционировать */
+  position: relative; /
 }
 
 /* Обёртка для содержимого */
@@ -213,6 +213,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .visiting__image-2 {
   position: absolute;
   top: 218px;
@@ -263,6 +264,24 @@ header {
   object-fit: cover;
   z-index: 1;
 }
+.visiting__label.fourth {
+  position: absolute;
+  top: 1027px;
+  left: 240px;
+  width: 252px;
+  height: 35px;
+  color: #000000;
+  font-family: Forum, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .visiting__image-5 {
   position: absolute;
@@ -273,6 +292,21 @@ header {
   object-fit: cover;
   z-index: 1;
 }
+.visiting__label.fifth {
+  position: absolute;
+  top: calc(717px + 285px + 25px); /* 717 — top картинки, 285 — её высота, 25 — отступ */
+  left: 740px; /* совпадает с left картинки */
+  white-space: nowrap;
+
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 
 .visiting__image-6 {
   position: absolute;
@@ -283,6 +317,196 @@ header {
   object-fit: cover;
   z-index: 1;
 }
+.visiting__label.sixth {
+  position: absolute;
+  top: calc(717px + 285px + 25px); /* 717 — top картинки, 285 — высота, 25 — отступ */
+  left: 1240px; /* совпадает с left картинки */
+  white-space: nowrap;
+
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.visiting__line {
+  position: absolute;
+  top: 228px;
+  left: 240px;
+   width: 300px;
+  height: 2px;
+  background-color: #710707;
+  opacity: 1;
+
+}
+.visiting__line.first-line {
+  top: 563px; /* примерно 218 + 285 + 25 + 35 + 10 */
+  left: 240px;
+}
+/* Вторая */
+.visiting__line.second-line {
+  top: 563px;
+  left: 740px;  /* 240 + 440 + 60 */
+}
+
+/* Третья */
+.visiting__line.third-line {
+  top: 563px;
+  left: 1240px; /* 240 + 2*(440 + 60) */
+}
+
+/* Четвёртая */
+.visiting__line.fourth-line {
+  top: 1072px;  /* 717 + 285 + 25 + 35 + 10 */
+  left: 240px;
+}
+
+/* Пятая */
+.visiting__line.fifth-line {
+  top: 1072px;
+  left: 740px;
+}
+
+/* Шестая */
+.visiting__line.sixth-line {
+  top: 1072px;
+  left: 1240px;
+}
+.visiting__desc {
+  position: absolute;
+  width: 165px;
+  height: 26px;
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  background: #00000000; /* прозрачный фон */
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Позиции для каждой описания — на 10px ниже полосок */
+.visiting__desc.first-desc {
+  top: calc(563px + 2px + 10px); /* top полоски + высота 2px + 10px */
+  left: 240px;
+}
+.visiting__desc.second-desc {
+  top: calc(563px + 2px + 10px);
+  left: 740px;
+}
+.visiting__desc.third-desc {
+  top: calc(563px + 2px + 10px);
+  left: 1240px;
+}
+.visiting__desc.fourth-desc {
+  top: calc(1072px + 2px + 10px);
+  left: 240px;
+}
+.visiting__desc.fifth-desc {
+  top: calc(1072px + 2px + 10px);
+  left: 740px;
+}
+.visiting__desc.sixth-desc {
+  top: calc(1072px + 2px + 10px);
+  left: 1240px;
+}
+
+/* Второй уровень текста — на 10px ниже первого уровня */
+.visiting__desc-second {
+  position: absolute;
+  width: 240px;
+  height: 21px;
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 1);
+  background: transparent;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; /* Чтобы не переносился */
+}
+
+.visiting__desc-second.first-desc {
+  top: calc(563px + 2px + 10px + 26px + 10px); /* полоска + 10 + высота первого текста + 10 */
+  left: 240px;
+}
+.visiting__desc-second.second-desc {
+  top: calc(563px + 2px + 10px + 26px + 10px);
+  left: 740px;
+}
+.visiting__desc-second.third-desc {
+  top: calc(563px + 2px + 10px + 26px + 10px);
+  left: 1240px;
+}
+.visiting__desc-second.fourth-desc {
+  top: calc(1072px + 2px + 10px + 26px + 10px);
+  left: 240px;
+}
+.visiting__desc-second.fifth-desc {
+  top: calc(1072px + 2px + 10px + 26px + 10px);
+  left: 740px;
+}
+.visiting__desc-second.sixth-desc {
+  top: calc(1072px + 2px + 10px + 26px + 10px);
+  left: 1240px;
+}
+/* ========== Explore Section ========== */
+.explore__container {
+  position: relative;
+  height: 865px;
+  top: 1211px;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #030303;
+}
+
+.explore__image {
+  position: absolute;
+  top: 90px;
+  left: 960px;
+  width: 720px;
+  height: 700px;
+  opacity: 1;
+}
+
+.explore__title {
+  position: absolute;
+  top: 75px;
+  left: 240px;
+  width: 660px;
+  height: 90px;
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.explore__underline {
+  position: absolute;
+  top: 235px;
+  left: 240px;
+  width: 660px;
+  height: 3px;
+  background-color: #710707;
+  opacity: 1;
+}
+
+
+
 
 
 
