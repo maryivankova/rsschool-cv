@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maryia Ivankova – CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+  <header class="header">
+    <h1>Maryia Ivankova</h1>
+    <p><strong>Middle Python Developer</strong></p>
+    <p>📍 Ankara (Turkey), Minsk, Belarus ∙ 📞 +37529 8967079 ∙ ✉️ ivankovavm@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/maryia-ivankova-5b416b66" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+  </header>
+
+  <main>
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>
+        Highly motivated Python Backend Developer with experience in developing and maintaining scalable
+        web applications and APIs. Proficient in Python framework such as FastAPI, Flask with strong expertise in
+        database management using PostgreSQL and ORM tools like SQLAlchemy. Experienced in working in Linux.
+      </p>
+      <p>
+        Developed a Telegram bot using the GPT-4 model, Sentence Transformers (vector search), and Python.
+        The bot is integrated with the Telegram Bot API and utilizes data from JSON and text files to generate
+        contextually relevant responses. Achieved 2nd place at the LATOKEN hackathon thanks to the bot's
+        functionality and accuracy.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article>
+        <h3>Python Developer | Fontera</h3>
+        <p><strong>09.2023 – 02.2025</strong></p>
+        <p><a href="https://fontera.tech" target="_blank" rel="noopener noreferrer">https://fontera.tech</a></p>
+        <p>A warehouse equipment management system consisting of PTL (Pick-to-Light) indicators, controllers, and a backend service built with Python (FastAPI). The system is designed to automate the order fulfillment process and control the placement of goods on shelves.</p>
+        <ul>
+          <li>Development and maintenance of backend including architecture design, services, agents, and API endpoints.</li>
+          <li>Optimization of data processing and system component interactions to improve performance.</li>
+          <li>Configuration and deployment of multi-component application using Docker (CUPS, PostgreSQL, MinIO, RabbitMQ).</li>
+          <li>Implemented queue system based on RabbitMQ for async task processing, later replaced with agent for better predictability.</li>
+          <li>Integration with external systems (PTL modules, MinIO) to automate order fulfillment and reporting.</li>
+          <li>Wrote unit and integration tests ensuring stability and reliability.</li>
+          <li>Created technical documentation and flowcharts for customer understanding.</li>
+        </ul>
+        <p><strong>Technologies:</strong> Python, FastAPI, SQLAlchemy, MinIO (S3), PostgreSQL, Docker</p>
+      </article>
+
+      <article>
+        <h3>Python Developer | Krew Guru</h3>
+        <p><strong>07.2022 – 08.2023</strong></p>
+        <p>A seafarer job matching platform connecting maritime professionals with job opportunities.</p>
+        <ul>
+          <li>Developed web applications and Web APIs using Flask.</li>
+          <li>Implemented business logic using Python 3.8 and Flask backed by PostgreSQL with SQLAlchemy ORM.</li>
+          <li>Continuous deployment using Jenkins.</li>
+          <li>Wrote end-to-end tests with PyTest.</li>
+          <li>Worked with Git, GitHub, and Linux environments.</li>
+          <li>Designed and maintained RESTful APIs for frontend-backend communication.</li>
+        </ul>
+        <p><strong>Technologies:</strong> Python 3.8, Flask, FastAPI, PostgreSQL, SQLAlchemy, GitHub, Jenkins, Linux</p>
+      </article>
+
+      <article>
+        <h3>Python Developer | iTechArt Group</h3>
+        <p><strong>01.2022 – 03.2022</strong></p>
+        <p>Project: Sports Nutrition App</p>
+        <ul>
+          <li>Developed admin panel for project management.</li>
+          <li>Created unit tests for code stability.</li>
+          <li>Worked with CI/CD pipelines and version control.</li>
+          <li>Developed RESTful API documentation using Swagger.</li>
+          <li>Applied OOP and implemented user authentication.</li>
+        </ul>
+        <p><strong>Technologies:</strong> Python 3.8, Django, PostgreSQL, GitLab</p>
+      </article>
+
+      <article>
+        <h3>Python Developer (Trainee) | iTechArt Group</h3>
+        <p><strong>09.2021 – 12.2021</strong></p>
+        <ul>
+          <li>Participated in backend and API development.</li>
+          <li>Improved Python skills via debugging and hands-on projects.</li>
+          <li>Developed software for Linux systems.</li>
+          <li>Gained experience in writing unit tests.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming: Python (FastAPI, Django, DRF), OOP, RESTful API Development</li>
+        <li>Databases: PostgreSQL, SQLAlchemy, Redis</li>
+        <li>DevOps & Tools: Docker, Git, GitLab CI/CD, Linux (Ubuntu), CUPS</li>
+        <li>Testing: Unit testing, PyTest, debugging, performance optimization</li>
+        <li>API Documentation: Swagger, Postman</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Belarusian State University, Faculty of International Relations, Major: International Private Law (2007 – 2012)</li>
+        <li>Overone Programming School – Python Developer Certification</li>
+        <li>Coursera – Advanced Django: Building a Blog</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>English – B2 (Upper Intermediate)</li>
+        <li>Russian – Native</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Maryia Ivankova</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
